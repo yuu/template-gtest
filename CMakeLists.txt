@@ -21,4 +21,4 @@ file(GLOB SOURCE
 add_executable(${PROJECT_NAME} ${SOURCE})
 target_link_libraries(${PROJECT_NAME} ${TESTFW_LIB})
 
-add_custom_target(check ${CMAKE_BINARY_DIR}/${PROJECT_NAME})
+add_custom_target(check ${PROJECT_BINARY_DIR}/${PROJECT_NAME})
