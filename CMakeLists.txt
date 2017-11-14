@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.0.0)
 
 project(ut VERSION 0.0.1)
+enable_testing()
 
 set(APP_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../")
 
